@@ -10,10 +10,10 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/preq">Request a Prayer.</Link>
+            <Link to="/preq">Request a Prayer</Link>
           </li>
           <li>
-            <Link to="/pget">Pray for Somebody.</Link>
+            <Link to="/pget">Pray for Somebody</Link>
           </li>
         </ul>
       </nav>

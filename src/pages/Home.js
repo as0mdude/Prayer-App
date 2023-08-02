@@ -11,12 +11,7 @@ const Home = () => {
       <nav>
         <ul>
           
-          <li>
-            <Link to="/preq">Request a Prayer.</Link>
-          </li>
-          <li>
-            <Link to="/pget">Pray for Somebody.</Link>
-          </li>
+          
         </ul>
       </nav>
     </>
@@ -24,4 +19,9 @@ const Home = () => {
   };
   
   export default Home;
-  
+  /**<li>
+            <Link to="/preq">Request a Prayer.</Link>
+          </li>
+          <li>
+            <Link to="/pget">Pray for Somebody.</Link>
+          </li>**/
