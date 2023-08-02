@@ -1,0 +1,29 @@
+body {
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 33%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 33%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 33%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
+    padding: 40px;
+    font-family: Outfit;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+html {
+    height: 100%;
+}
+
+h1{
+    color:antiquewhite
+}
+
+p{
+    color:antiquewhite
+}
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
