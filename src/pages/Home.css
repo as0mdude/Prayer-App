@@ -17,12 +17,20 @@ html {
     height: 100%;
 }
 
-h1{
-    color:antiquewhite
+h2{
+    color:antiquewhite;
+    font-size: 30px;
 }
 
-p{
-    color:antiquewhite
+h1{
+    color:antiquewhite;
+    font-size: 60px;
+    
+}
+
+h3{
+    color:antiquewhite;
+    font-size: 30px;
 }
   
 
