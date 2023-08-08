@@ -13,7 +13,7 @@ const Layout = () => {
             <Link to="/preq">Request a Prayer</Link>
           </li>
           <li>
-            <Link to="/pget">Pray for Somebody</Link>
+            <Link to="/pget">Pray for Someone</Link>
           </li>
         </ul>
       </nav>
