@@ -7,8 +7,8 @@ const Home = () => {
     
     
     
-    <h1>Have a prayer request? Would you like to spare a moment to pray for someone else?</h1>
-    <h3>On this app, users are able to send prayer requests out to the database, while also being able to fetch prayer request from fellow users.</h3>
+    <h1>PrayerApp</h1>
+    <h3>Have a prayer request? Would you like to spare a moment to pray for someone else? On this app, users are able to send prayer requests out to the database, while also being able to fetch prayer request from fellow users.</h3>
     </>
     );
   };

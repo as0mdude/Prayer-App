@@ -14,11 +14,13 @@ const PrayerGet = () => {
       .then(data => {
         setPosts(data);
       })
+      
   }, [])
 
   return (
     <div className="home">
       {requests && <PrayerGetComponent requests={requests} />}
+      
     </div>
   );
   };
