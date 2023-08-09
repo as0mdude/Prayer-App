@@ -10,7 +10,13 @@ const PrayerRequest = () => {
     e.preventDefault();
     const post = {name, location, body};
 
-    console.log(post)
+    fetch('http://localhost:8000/requests', {
+      method: 'POST',
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(post)
+    }).then(()=>{
+      console.log('new post added');
+    })
 
   }
 
