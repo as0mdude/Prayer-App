@@ -19,7 +19,7 @@ const PrayerGetComponent = ({ requests }) => {
       
       {randomRequest && (
         <div className="blog-preview" key={randomRequest.id}>
-          <h2>{randomRequest.name} from {randomRequest.location}'s prayer request:</h2>
+          <h2>Prayer request of "{randomRequest.name}" from "{randomRequest.location}"</h2>
           <h4>"{randomRequest.body}"</h4>
           <button onClick={handleDelete}>Complete and Remove Request</button>
         </div>
