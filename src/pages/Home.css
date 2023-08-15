@@ -22,21 +22,25 @@ html {
     height: 100%;
 }
 
-h2{
-    color:antiquewhite;
-    font-size: 30px;
+.maintext{
+    margin-top:15%;
 }
+
+
 
 h1{
     color:antiquewhite;
     font-size: 60px;
+    font-weight: 700;
+    
     
 }
 
 h3{
     color:antiquewhite;
     font-size: 30px;
+    font-weight:300;
 }
   
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;700&display=swap');
