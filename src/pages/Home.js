@@ -8,6 +8,16 @@ const Home = () => {
     
     <div class="maintext"><h1>PrayerApp</h1>
     <h3>Have a prayer request? Would you like to spare a moment to pray for someone else? On this app, users are able to send prayer requests out to the database, while also being able to fetch prayer request from fellow users.</h3></div>
+    <Link to="/preq">
+     <button type="button">
+          Request
+     </button>
+    </Link>
+    <Link to="/pget">
+     <button type="button">
+          Pray
+     </button>
+    </Link>
     
     </>
     );
